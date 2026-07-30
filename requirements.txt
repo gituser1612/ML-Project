@@ -1,11 +1,11 @@
-pandas
-numpy
-seaborn
-matplotlib
-scikit-learn
-xgboost
-catboost
-dill
-flask
-gunicorn
+pandas==2.3.1
+numpy==2.3.2
+seaborn==0.13.2
+matplotlib==3.10.5
+scikit-learn==1.7.1
+xgboost==3.0.4
+catboost==1.2.8
+dill==0.4.0
+Flask==3.1.1
+gunicorn==23.0.0
 #-e .
