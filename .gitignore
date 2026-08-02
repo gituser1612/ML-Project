@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+#folders
+catboost_info/
+logs/
+ML_Project.egg-info/
+
 # Distribution / packaging
 .Python
 build/
