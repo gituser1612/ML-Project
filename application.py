@@ -11,7 +11,8 @@ app = application
 ##Route for home page
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html',best_model_name='CatBoost Regressor',
+        r2_square=0.88)
 
 @app.route('/predictdata',methods=['GET','POST'])
 def predict_datapoint():
